@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/Survey_Form.css">
+    <title>My Club's Survey page</title>
+</head>
+<body>
+    <main>
+        <section>
+    <h1 id="title">FC BARCELONA SURVEY FORM</h1>
+    <p id="description"><i>Thank you for taking the time to help us improve our club.</i></p>
+    <div class="label">
+    <form id="survey-form">
+        <div class="info">
+            <label id="name-label" for="name">Name</label>
+            <input required id="name" type="text" placeholder="Enter your name" name="name" id="name-label" />
+        </div>
+        <div class="info">
+            <label for="email" id="email-label">Email</label>
+            <input required type="email" id="email" type="text" placeholder="Enter your email" name="email" id="email-label" />
+          </div>
+          <div class="info">
+            <label for="age" id="number-label">Age (optional)</label>
+           <input id="number" type="number" placeholder="Age" name="number" min="10" max="90" id="number" />
+          </div>  
+          <div class="question-block">
+            <label>Which option best describes your current role?</label>
+        </div>
+        <div class="answer">
+        <select id="dropdown" required>
+            <option value="">Select current role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-job">Full Time Learner</option>
+            <option value="full-time-job">Prefer Not to Say </option>
+            <option value="full-time-job">Other</option>
+        </select>
+        <legend>Would you recommend FC Barcelona to a friend?</legend>
+        <nav>
+        <ul class="answers-list">
+            <li><label for="q1-a1"><input name="q1"  id="q1-a1" value="definitely" type="radio">Definitely</label></li>
+            <li><label for="q1-a2"><input name="q1" id="q1-a2" value="maybe"  type="radio">Maybe</label></li>
+            <li><label for="q1-a3"><input name="q1" id="q1-a3" value="not sure" type="radio">Not sure</label></li>
+        </ul>
+        </nav>
+        <div class="question-block">
+            <label>Who is your favorite FC Barcelona player?</label>
+        </div>
+        <div class="answer">
+        <select id="dropdown" required>
+            <option value="">Select an option</option>
+            <option value="pedri">Pedri</option>
+            <option value="ousmane-dembele">Ousmane Dembele</option>
+            <option value="robert-lewandowski">Robert Lewandowski</option>
+            <option value="ferran-torres">Ferran Torres</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+        <legend>What would you like to see improved in our football?<i>(Check all that apply)</i></legend>
+        <ul class="answers-list">
+            <li><label for="checked"><input name="answer"  value="defensive side of the game" type="checkbox">Defensive side of the game</label></li>
+            <li><label for="checked"><input name="answer"  value="attacking wise" type="checkbox">Attacking wise</label></li>
+            <li><label for="checked"><input name="answer" value="ferran should be handed the captain armband" type="checkbox">Ferran should be handed the captain Armband</label></li>
+            <li><label for="checked"><input name="answer"  value="other" type="checkbox">Other</label></li>
+        </ul>    
+        <div class="question-block">
+            <label for="comments">Any comments or suggestions?</label>
+        </div>
+        <div class="answer">
+            <textarea id="comments" name="comments" rows="5" cols="70" placeholder="Enter your comments here."></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+        </div> 
+        </div>
+    </form>
+    </section>
+    </main>
+</body>
+</html>

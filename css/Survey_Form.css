@@ -1,0 +1,64 @@
+body{
+    background: #5655a1;
+    color: #f6f6f6;
+    font-family: Helvetica;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: min(5vw, 1.2em);
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+}
+i{
+   
+    font-size: 12px;
+}
+.label{
+    border: 3px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: #050405;
+    width: 500px;
+    max-width: 800px;
+}
+.info input{
+width: 100%;
+border-radius: 5px;
+height: 25px;
+margin: 15px 0px;
+}
+select{
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    margin: 15px 0px;
+}
+.answers-list {
+    list-style: none;
+    padding: 0;
+  }
+ 
+
+.info label, .info input{
+    display: inline-block;
+}
+button{
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #f6f6f6;
+    background:#3937c2;
+    border-radius: 5px;
+    border: 3px solid #ffffff;
+}
+
